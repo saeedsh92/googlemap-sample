@@ -12,15 +12,25 @@
         android:layout_height="match_parent"
         tools:context="com.sevenlearn.googlemapsample.MapsActivity" />
 
+    <Button
+        android:id="@+id/button_map_showTripInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Show Trip Info" />
+
     <ImageView
         android:id="@+id/iv_maps_goToMyLocation"
         android:layout_width="52dp"
         android:layout_height="52dp"
+
         android:layout_gravity="bottom|left"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="50dp"
+
         android:layout_marginLeft="24dp"
         android:background="@drawable/my_location_background"
         android:padding="12dp"
         app:srcCompat="@drawable/ic_my_location_white_24dp" />
+
 </FrameLayout>
 
